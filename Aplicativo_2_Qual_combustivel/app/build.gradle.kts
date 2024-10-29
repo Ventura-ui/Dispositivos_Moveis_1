@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.ifsp.dmo1.qualcombustivel"
+    namespace = "br.edu.ifsp.dmo1.qualcombustive"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.edu.ifsp.dmo1.qualcombustivel"
+        applicationId = "br.edu.ifsp.dmo1.qualcombustive"
         minSdk = 30
         targetSdk = 34
         versionCode = 1

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Qual_combustível"
+rootProject.name = "Qual combustível"
 include(":app")

@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo1.qualcombustivel
+package br.edu.ifsp.dmo1.qualcombustive
 
 import org.junit.Test
 
