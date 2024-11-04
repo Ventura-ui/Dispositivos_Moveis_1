@@ -58,7 +58,8 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun updateListView(){
-        val adapter: ArrayAdapter<Int> = ArrayAdapter(this, android.R.layout.simple_list_item_1, draw.getHistory())
+        val sorteios = draw.getHistory()
+        val adapter = SorteioAdapter(this, sorteios)
         binding.listviewDraw.adapter = adapter
     }
 }
